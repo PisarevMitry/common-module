@@ -17,6 +17,7 @@
         <module>common-services</module>
         <module>dependency-management-bom</module>
         <module>common-utils</module>
+        <module>build-tools</module>
     </modules>
 
     <properties>
@@ -91,7 +92,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
                 <configuration>
-                    <configLocation>./build-tools/src/main/resources/checkstyle/checkstyle.xml</configLocation>
+                    <configLocation>/checkstyle/checkstyle.xml</configLocation>
+                    <suppressionsLocation>/checkstyle/checkstyle_suppress.xml</suppressionsLocation>
                     <consoleOutput>true</consoleOutput>
                     <failsOnError>true</failsOnError>
                     <failOnViolation>true</failOnViolation>
@@ -106,6 +108,13 @@
                         </goals>
                     </execution>
                 </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>liga.medical</groupId>
+                        <artifactId>build-tools</artifactId>
+                        <version>${project.version}</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>
