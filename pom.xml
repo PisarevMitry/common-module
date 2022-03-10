@@ -37,6 +37,12 @@
         <guava.version>29.0-jre</guava.version>
         <lombok.version>1.18.12</lombok.version>
         <springboot.test.version>2.1.2.RELEASE</springboot.test.version>
+
+        <maven.compiler.plugin>3.8.1</maven.compiler.plugin>
+
+        <spring.rabbit.version>2.3.7</spring.rabbit.version>
+
+        <mybatis.version>3.5.9</mybatis.version>
     </properties>
 
     <dependencyManagement>
