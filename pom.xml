@@ -17,7 +17,6 @@
         <module>common-services</module>
         <module>dependency-management-bom</module>
         <module>common-utils</module>
-        <module>build-tools</module>
     </modules>
 
     <properties>
@@ -44,7 +43,7 @@
         <spring.rabbit.version>2.3.7</spring.rabbit.version>
 
         <mybatis.version>3.5.9</mybatis.version>
-        <hibernate.version>5.6.5.Final</hibernate.version>
+        <hibernate.core.version>5.6.5.Final</hibernate.core.version>
     </properties>
 
     <dependencyManagement>
