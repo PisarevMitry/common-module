@@ -15,13 +15,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class DeviceIdentificationDto {
 
-/**
- * Some text here.
- */
     private Long deviceId;
-/**
- * Some text here.
- */
+
     private Long ownerId;
 
+    /**
+     * Медицинские данные.
+     */
+    private MedicalData medicalData;
 }
