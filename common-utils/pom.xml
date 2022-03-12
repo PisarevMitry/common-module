@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>liga.medical</groupId>
-        <artifactId>dependency-managment-bom</artifactId>
+        <artifactId>dependency-management-bom</artifactId>
         <version>0.0.1</version>
         <relativePath>../dependency-management-bom/pom.xml</relativePath>
     </parent>
