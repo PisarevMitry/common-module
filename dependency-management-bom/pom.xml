@@ -9,6 +9,7 @@
         <groupId>liga.medical</groupId>
         <artifactId>common</artifactId>
         <version>0.0.1</version>
+<!--        <relativePath>../pom.xml</relativePath>-->
     </parent>
 
     <artifactId>dependency-management-bom</artifactId>
